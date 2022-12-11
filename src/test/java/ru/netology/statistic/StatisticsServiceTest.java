@@ -1,4 +1,4 @@
-package ru.netology.statisticg;
+package ru.netology.statistics;
 
 import org.junit.jupiter.api.Test;
 import ru.netology.statistic.StatisticsService;
@@ -19,7 +19,6 @@ public class StatisticsServiceTest {
         assertEquals(expected, actual);
     }
 
-}
 
     @Test
     void findMaxInTheMiddle() {
